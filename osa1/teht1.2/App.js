@@ -9,28 +9,29 @@ const App = () => {
   }
   const Content = () => {
     return (
-      <><Part1 />
-      <Part2 />
-      <Part3 />
+      <>
+        <Part1 />
+        <Part2 />
+        <Part3 />
       </>
     )
   }
-  const Part1=()=>{
-    return(
+  const Part1 = () => {
+    return (
       <><p>
         {part1} {exercises1}
       </p></>
     )
   }
-  const Part2=()=>{
-    return(
+  const Part2 = () => {
+    return (
       <><p>
         {part2} {exercises2}
       </p></>
     )
   }
-  const Part3=()=>{
-    return(
+  const Part3 = () => {
+    return (
       <><p>
         {part3} {exercises3}
       </p></>
